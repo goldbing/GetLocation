@@ -1,4 +1,4 @@
-package huabei.com.getlocation;
+﻿package huabei.com.getlocation;
 
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
                 if (!gpsIsOpen()) {
                     openGPS(MainActivity.this);
                 }
-                //获取位置信息
+                //获取位置信息.
                 getLocation();
             }
         }
